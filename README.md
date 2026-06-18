@@ -1,4 +1,6 @@
-# OT-securiity
+# OT-security
+
+Simple Modbus TCP demonstration showing a basic OT-style client/server setup. The server simulates a PLC-like process exposing a register value (e.g. temperature) and continuously monitors it, while the client connects over the network and writes values directly to that register. The example highlights how Modbus TCP allows unauthenticated write access to process data and how a remote node can override operational values in real time.
 
 # Smart Factory OT Security
 
